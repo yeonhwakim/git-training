@@ -1,4 +1,4 @@
-### 브랜치 병합 - fast forword
+### 브랜치 병합 - fast forward
 
 1. main 브랜치는 수정이 없다.
 2. 새로운 or 기존의 다른 브랜치에 수정이 있다.
