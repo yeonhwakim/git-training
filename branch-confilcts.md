@@ -10,3 +10,11 @@
   <<<< HEAD ... ======== ... >>>> 
   에서 필요한 부분 남기고 저장한다.
 8. 새로 commit 한다.
+
+![충돌](https://user-images.githubusercontent.com/47783128/148645119-7a8c2b50-2282-4941-8ded-1bfe257deb33.PNG)
+
+![충돌 재현](https://user-images.githubusercontent.com/47783128/148645110-3a5a3275-dae8-4c57-88f5-d26a173f6a2e.PNG)
+
+![충돌 해결후 커밋](https://user-images.githubusercontent.com/47783128/148645103-713f1d1f-df2c-4bec-a531-18074a917c6a.PNG)
+
+![충돌로그](https://user-images.githubusercontent.com/47783128/148645097-37cd7502-b6c6-41ea-8e41-528d25d9a035.PNG)
