@@ -8,3 +8,6 @@
 7. main branch에서 review-branch-merge-commit 브랜치 생성
 8. review-merge.md 파일 수정
 9. review-branch-merge 브랜치 커밋
+10. main branch에서 review-branch-merge-conflicts 브랜치 생성
+8. review-merge.md 파일 수정
+9. review-branch-conflicts 브랜치 커밋
