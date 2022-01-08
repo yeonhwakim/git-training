@@ -77,6 +77,8 @@
     원격 - $ git branch -r
 
     로컬, 원격 - $ git branch -a
+
+    커밋정보 - $ git branch -v
   ```
 
   원격 브랜치 가져오기
