@@ -173,4 +173,4 @@
    ##### fast forword
    ##### auto commit (Merge made by the 'recursive' strategy.)
    ##### auto merging
-   ##### confilcts 실습
+   ##### confilcts
