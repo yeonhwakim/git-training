@@ -6,7 +6,8 @@
 ---> fast forward review
 
 6. main branch에서 review-branch-merge-commit 브랜치 생성
-7. review-merge.md 파일 수정 
+* 다시 확인을 위해 main과 review-branch-merge-commit 싱크 맞춤
+7. review-branch-merge-commit 브랜치 에서 review-merge.md 파일 수정 
 8. review-branch-merge-commit 브랜치 커밋
 9. 다시 main 브랜치에서
 10. review-merge.md 파일 수정
