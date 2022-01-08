@@ -53,6 +53,6 @@
   기본 명령어 작성후 바로 실습.
 
   #### 좋은 git 커밋 메시지 작성 실습
-    ![커밋연습](https://user-images.githubusercontent.com/47783128/148632676-1b48e8f0-aebf-462f-9227-b6cb97325f75.PNG)
+![커밋연습](https://user-images.githubusercontent.com/47783128/148632676-1b48e8f0-aebf-462f-9227-b6cb97325f75.PNG)
 
   
