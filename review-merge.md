@@ -3,6 +3,16 @@
 3. review-merge 브랜치 커밋 
 5. main 브랜치에서 review-branch-fast-forward 병합
 
+![1  main 브랜치 로그](https://user-images.githubusercontent.com/47783128/148662737-7832b152-fb2d-4e3b-9a71-553dce62bea2.PNG)
+
+![2  fast forward 브랜치 로그](https://user-images.githubusercontent.com/47783128/148662740-044d2156-2db6-4e70-af93-9244d9b15117.PNG)
+
+![3  병합](https://user-images.githubusercontent.com/47783128/148662746-f40cdb8e-171e-4bcc-96d4-b039af6a7236.PNG)
+
+![4  병합 후 로그](https://user-images.githubusercontent.com/47783128/148662788-9bbcf867-8215-422f-afc6-de51d3fc5a8b.PNG)
+
+=> 기준 브랜치가 바라보는 최신 커밋만 변경된거 확인
+
 ---> fast forward review
 
 6. main branch에서 review-branch-merge-commit 브랜치 생성
@@ -14,12 +24,17 @@
 11. main 브랜치 커밋 
 12. main 브랜치에서 review-branch-merge-commit 병합
 
-![4  mc 커밋 로그](https://user-images.githubusercontent.com/47783128/148662245-ee1ca0a5-9276-4ef1-ac12-e457aa028399.PNG)
+![5  main 브랜치](https://user-images.githubusercontent.com/47783128/148662795-b7363a99-dfbc-49b6-b4b1-e01040ecd0f8.PNG)
 
-![5  main도 수정](https://user-images.githubusercontent.com/47783128/148662248-b793ed6b-0ec7-448d-9575-f65bdf53e8d7.PNG)
+![6  merge commit 수저후 브랜치 로그](https://user-images.githubusercontent.com/47783128/148662798-4ece2094-de1f-45be-b453-134b24182dd8.PNG)
 
-![6  merge 후](https://user-images.githubusercontent.com/47783128/148662252-3b5268de-3998-4d83-b299-629c2e76cd0c.PNG)
+![7  main 브랜치 수정후 로그](https://user-images.githubusercontent.com/47783128/148662802-8ab96dd3-b103-4f2e-87e4-3a0acd6e755e.PNG)
 
+![8  병합](https://user-images.githubusercontent.com/47783128/148662806-ebe5c037-f5cf-4a93-afe6-abf314ba5836.PNG)
+
+![9  병합후 로그](https://user-images.githubusercontent.com/47783128/148662810-7942d756-245a-4093-b25d-b822220be093.PNG)
+
+=> 공통부모를 찾고 새로운 커밋을 바라보는거 확인
 
 ---> merge commit 
 
