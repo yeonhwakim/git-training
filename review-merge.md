@@ -1,14 +1,7 @@
-1. main branch에서 review-merge 브랜치 생성
-3. review-merge.md 파일 생성
-4. review-merge 브랜치 커밋
-5. 로그를 비교해보고 싶어서 다시 main branch에서 review-branch-merge 브랜치생성
-6. main 브랜치에서 review-branch-merge 병합
-
-![1 처음 로그](https://user-images.githubusercontent.com/47783128/148661977-5059e2c1-d0cf-4558-89c7-20213a920bdd.PNG)
-
-![2 번 새로운 브랜치에서 수정후 커밋 로그](https://user-images.githubusercontent.com/47783128/148662150-b80f34db-9397-4bf9-b817-c0500d44f3b4.PNG)
-
-![3  fast forward 나옴](https://user-images.githubusercontent.com/47783128/148662152-be9e0165-d0ca-4325-9c18-d6afce82f720.PNG)
+1. main branch에서 review-branch-fast-forward 브랜치 생성
+2. review-merge.md 파일 수정
+3. review-merge 브랜치 커밋 
+5. main 브랜치에서 review-branch-fast-forward 병합
 
 ---> fast forward
 
