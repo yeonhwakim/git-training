@@ -3,7 +3,7 @@
 3. review-merge 브랜치 커밋 
 5. main 브랜치에서 review-branch-fast-forward 병합
 
----> fast forward
+---> fast forward review
 
 6. main branch에서 review-branch-merge-commit 브랜치 생성
 7. review-merge.md 파일 수정 
