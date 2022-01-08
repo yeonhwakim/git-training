@@ -170,7 +170,20 @@
 ![로컬에서 원격 브랜치 삭제](https://user-images.githubusercontent.com/47783128/148635018-2f1a46ba-72d5-4f7a-9766-89e42e6fed36.PNG)
 
    #### 브랜치 병합 실습
-   ##### fast forword
-   ##### auto commit (Merge made by the 'recursive' strategy.)
+   * [merge 기초](https://git-scm.com/book/ko/v2/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EB%B8%8C%EB%9E%9C%EC%B9%98%EC%99%80-Merge-%EC%9D%98-%EA%B8%B0%EC%B4%88)
+
+   ##### fast forword 
+    main 브랜치 기반으로 새로운 커밋 생성 없이 커밋 이동
+    [fast forword 실습](branch-fast-forword.md)
+
+   ##### merge commit (Merge made by the 'recursive' strategy.) 
+    공통의 부모를 찾아 양쪽을 반영한 새로운 커밋 생성
+    [merge commit 실습](branch-merge-commit.md)
+
    ##### auto merging
+    main branch 기반으로 같은 파일을 수정한 경우
+    [auto merging 실습](branch-auto-merging.md)
+
    ##### confilcts 
+    같은 부분을 수정한 경우
+    [confilcts 실습](branch-confilcts.md)
