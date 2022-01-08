@@ -48,6 +48,10 @@
   $ git push origin main
   ```
 
+  ```
+  $ git pull origin main
+  ```
+
   #### 기본 명령어 실습
   기본 명령어 작성후 바로 실습.
 
