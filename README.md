@@ -168,3 +168,8 @@
    
 ![브랜치 삭제](https://user-images.githubusercontent.com/47783128/148635010-406a8ad7-bf32-4aa2-99b7-f8ba9eda95c2.PNG)
 ![로컬에서 원격 브랜치 삭제](https://user-images.githubusercontent.com/47783128/148635018-2f1a46ba-72d5-4f7a-9766-89e42e6fed36.PNG)
+
+   #### 브랜치 병합 실습
+   ##### fast forword
+   ##### auto mergeing
+   ##### confilcts
