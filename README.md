@@ -171,5 +171,5 @@
 
    #### 브랜치 병합 실습
    ##### fast forword
-   ##### auto mergeing
+   ##### auto merging
    ##### confilcts
