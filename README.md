@@ -76,7 +76,7 @@
 
     원격 - $ git branch -r
 
-    로컬, 원격 - $ git branch -vva
+    로컬, 원격 - $ git branch -a
   ```
 
   원격 브랜치 가져오기
