@@ -147,4 +147,22 @@
 
       - merge commit
   ```
+   #### 브랜치 명령어 실습
+   ##### 브랜치 생성 확인
+   
+![브랜치 생성 확인](https://user-images.githubusercontent.com/47783128/148634911-cdf9a999-0e0b-476e-ac09-84d5e01e7642.PNG)
 
+   ##### 로컬 브랜치 원격 저장소에 추가
+   
+![원격저장소에 브랜치 추가](https://user-images.githubusercontent.com/47783128/148634963-5498680f-eedd-4f21-9a1d-2dcd97f9e4a4.PNG)
+![원격 저장소 리스트](https://user-images.githubusercontent.com/47783128/148634994-671e19fa-1487-4e1e-a1ca-5d80c2be660c.PNG)
+
+   ##### 원격 브랜치 로컬에 추가
+   
+![원격 저장소 추가 리스트](https://user-images.githubusercontent.com/47783128/148634982-ac68101e-a7a5-47ba-b788-26d3a5f2541b.PNG)
+![원격저장소 브랜치 로컬저장소에 추가](https://user-images.githubusercontent.com/47783128/148635001-90eb594a-9898-4c0d-81d7-6f563a94b61e.PNG)
+
+   ##### 브랜치 삭제
+   
+![브랜치 삭제](https://user-images.githubusercontent.com/47783128/148635010-406a8ad7-bf32-4aa2-99b7-f8ba9eda95c2.PNG)
+![로컬에서 원격 브랜치 삭제](https://user-images.githubusercontent.com/47783128/148635018-2f1a46ba-72d5-4f7a-9766-89e42e6fed36.PNG)
