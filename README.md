@@ -171,5 +171,6 @@
 
    #### 브랜치 병합 실습
    ##### fast forword
+   ##### auto commit (Merge made by the 'recursive' strategy.)
    ##### auto merging
    ##### confilcts
