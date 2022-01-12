@@ -208,8 +208,8 @@
   - 나중에 수정한 파일 마지막 commit 안에 밀어넣기
   - 커밋을 고치는 내용이 오타를 살짝 고치거나 실수로 빠뜨린 것을 넣는 등 아주 사소하거나 이미 커밋 메시지가 충분히 이를 반영하고 있을 수 있다. 이런 경우 다음과 같이 --no-edit 옵션을 사용하면 커밋 메시지를 수정하도록 편집기가 실행되지는 않는다.
 
-  #### 복습
-    [git commit --amend](commit-amend.md)
+  #### [git commit --amend 복습
+  [git commit --amend 복습](commit-amend.md)
 
   #### 커밋을 버리고 특정 버전으로 다시 되돌아가기, 이전 커밋으로 돌아가기 (커밋 취소)
 
@@ -224,5 +224,5 @@
 
   $ git reset --hard ORIG_HEAD 
   ```
-  
+
   [Reset 명확히 알고 가기](https://git-scm.com/book/ko/v2/Git-%EB%8F%84%EA%B5%AC-Reset-%EB%AA%85%ED%99%95%ED%9E%88-%EC%95%8C%EA%B3%A0-%EA%B0%80%EA%B8%B0)
