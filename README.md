@@ -275,6 +275,11 @@
   `nothing to commit, working tree clean`
   ```
 
+  __git reset file path__
+
+  * 1단계를 건너 뛰고 2, 3단계를 적용한다.
+  * HEAD는 포인터인데 경로에 따라 파일별로 기준이 되는 커밋을 부분적으로 적용하는 건 불가능하다. 하지만, Index나 워킹 디렉토리는 일부분만 갱신할 수 있다.
+
   [Reset 명확히 알고 가기](https://git-scm.com/book/ko/v2/Git-%EB%8F%84%EA%B5%AC-Reset-%EB%AA%85%ED%99%95%ED%9E%88-%EC%95%8C%EA%B3%A0-%EA%B0%80%EA%B8%B0)
 
   [git reset HEAD^ 실습](reset-head-1.md)
@@ -282,3 +287,5 @@
   [git reset HEAD~ 실습](reset-head-2.md)
 
   [git reset 커밋 실습](reset-commit.md)
+
+  [git reset file 실습](reset-file.md)
