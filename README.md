@@ -223,4 +223,56 @@
   $ git reset --hard ORIG_HEAD 
   ```
 
+  #####  reset 단계
+  
+  __1 단계: HEAD 이동 (--soft)__
+
+  `$ git reset --soft`
+
+  HEAD는 계속 현재 브랜치를 가리키고 있고, 현재 브랜치가 가리키는 커밋을 바꾼다. => 커밋을 취소 한다.
+
+  * HEAD => 취소한 커밋
+
+  여기서 다시 commit 하면 새로운 커밋생성 (git commit --amend 랑 동일)
+
+  ```bash
+  $ git status
+  `Changes to be committed''
+  ```
+
+  __2 단계: Index 업데이트 (--mixed)__
+
+  `$ git reset --mixed`
+
+  HEAD는 계속 현재 브랜치를 가리키고 있고, 현재 브랜치가 가리키는 커밋을 바꾼다. => 커밋을 취소 한다.
+
+  Index를 현재 HEAD가 가리키는 스냅샷으로 업데이트 => git add 취소
+
+  * HEAD => 취소한 커밋
+  * Index => git add 하기전
+
+  ```bash
+  $ git status
+  `Changes not staged for commit,`
+  ```
+
+  __3 단계: 워킹 디렉토리 업데이트 (--hard)__
+
+  `$ git reset --hard`
+
+  HEAD는 계속 현재 브랜치를 가리키고 있고, 현재 브랜치가 가리키는 커밋을 바꾼다. => 커밋을 취소 한다.
+
+  Index를 현재 HEAD가 가리키는 스냅샷으로 업데이트 => git add 취소
+
+  워킹 디렉토리의 내용까지도 되돌린다. => 마지막 커밋을 되돌린다.
+
+  * HEAD => 취소한 커밋
+  * Index => git add 하기전
+  * Working Directory => 내용까지 되돌림
+
+  ```bash
+  $ git status
+  `nothing to commit, working tree clean`
+  ```
+
   [Reset 명확히 알고 가기](https://git-scm.com/book/ko/v2/Git-%EB%8F%84%EA%B5%AC-Reset-%EB%AA%85%ED%99%95%ED%9E%88-%EC%95%8C%EA%B3%A0-%EA%B0%80%EA%B8%B0)
