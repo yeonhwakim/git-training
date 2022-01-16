@@ -221,6 +221,8 @@
   $ git reset --hard 돌아가고 싶은 커밋
 
   $ git reset --hard ORIG_HEAD 
+
+  $ git reset file path
   ```
 
   #####  reset 단계
