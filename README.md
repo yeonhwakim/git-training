@@ -214,13 +214,11 @@
   #### 커밋을 버리고 특정 버전으로 다시 되돌아가기, 이전 커밋으로 돌아가기 (커밋 취소)
 
   ```bash
-  $ git reset --hard 돌아가고 싶은 커밋
-
   $ git reset --soft 돌아가고 싶은 커밋
 
   $ git reset --mixed 돌아가고 싶은 커밋
 
-  $ git reset HEAD~
+  $ git reset --hard 돌아가고 싶은 커밋
 
   $ git reset --hard ORIG_HEAD 
   ```
