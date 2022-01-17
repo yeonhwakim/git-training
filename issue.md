@@ -1,0 +1,6 @@
+- [] 이슈발행
+- [] 이슈 기반 브랜치 생성
+- [] Pull Request
+- [] 코드리뷰
+- [] close issue
+- [] merge branch
