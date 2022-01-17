@@ -1,8 +1,10 @@
 1. 라벨 생성 (논의)
 
 2. 칸반보드 생성
+  - [참고](https://zeddios.tistory.com/1194)
 
 3. 이슈 템플릿 정하기
+  - [참고](https://treasurebear.tistory.com/69)
 
 4. 이슈발행
   - Assignees : 해당 작업의 담당자
