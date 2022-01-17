@@ -1,6 +1,7 @@
 - [] 이슈발행
 - [] 이슈 기반 브랜치 생성
 - [] Pull Request
+- [] PR 제목 [#이슈번호] 내용 수정
 - [] 코드리뷰
-- [] close issue
+- [] resolved #이슈번호
 - [] merge branch
