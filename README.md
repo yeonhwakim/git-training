@@ -282,6 +282,32 @@
   * 1단계를 건너 뛰고 2, 3단계를 적용한다.
   * HEAD는 포인터인데 경로에 따라 파일별로 기준이 되는 커밋을 부분적으로 적용하는 건 불가능하다. 하지만, Index나 워킹 디렉토리는 일부분만 갱신할 수 있다.
 
+  __reset vs checkout__
+
+  commit 
+
+  ```bash
+  $ git reset [commit] => 해당 커밋으로 덮어써버림
+
+  $ git checkout [commit] => 저장하지 않은 것이 있는지 확인해서 날려버리지 않는다는 것을 보장
+  ```
+
+  file 
+
+  ```bash
+  $ git reset [file path] => Unstage 상태로 되돌림
+
+  $ git checkout [file path] => Unstage 상태에서 Unmodified 상태로 되돌림
+  ```
+
+  branch 
+
+  ```bash
+  $ git reset [branch] => head가 가리키는 branch가 바라보는 커밋을 변경 
+
+  $ git checkout [branch] => head의 branch를 변경
+  ```
+
   [Reset 명확히 알고 가기](https://git-scm.com/book/ko/v2/Git-%EB%8F%84%EA%B5%AC-Reset-%EB%AA%85%ED%99%95%ED%9E%88-%EC%95%8C%EA%B3%A0-%EA%B0%80%EA%B8%B0)
 
   [git reset HEAD^ 실습](reset-head-1.md)
@@ -291,3 +317,5 @@
   [git reset 커밋 실습](reset-commit.md)
 
   [git reset file 실습](reset-file.md)
+
+  [reset vs checkout 실습](reset-checkout.md)
