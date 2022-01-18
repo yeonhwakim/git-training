@@ -319,3 +319,37 @@
   [git reset file 실습](reset-file.md)
 
   [reset vs checkout 실습](reset-checkout.md)
+
+  #####  revert
+
+  * reset vs revert
+
+    reset는
+
+    - 아예 커밋이력을 지운다.
+    - 로컬에서 작업하거나 이미 원격에 push 해도 협업이 아닌경우.
+
+    revert는 
+
+    - 삭제한 이력이 남는다.
+    - 협업을 하는 경우 이미 원격에 push 했을때 사용.
+
+  * 실습해야되는거
+
+  - 협업일때 reset 후 에러 확인
+
+  ```bash
+  git revert 확인
+
+  git revert -R
+
+  git revert HEAD
+
+  git revert commit id
+
+  git revert commit id.
+
+  git revert -m 머지커밋 되돌리기
+
+  reset도... 머지커밋을 되돌리면?
+  ```
