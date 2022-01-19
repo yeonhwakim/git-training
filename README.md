@@ -336,7 +336,9 @@
 
   * 실습해야되는거
 
-  - 협업일때 reset 후 에러 확인
+  - 이미 push한 commit reset 후 에러 확인
+
+  [이미 push한 commit reset 실습](reset-push-commit.md)
 
   ```bash
   git revert 확인
