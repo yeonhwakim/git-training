@@ -352,6 +352,13 @@
   git revert commit id.
 
   git revert -m 머지커밋 되돌리기
+  == git merge --abort
 
   reset도... 머지커밋을 되돌리면?
   ```
+
+  #####  rebase
+
+
+
+  #####  cherry-pick
