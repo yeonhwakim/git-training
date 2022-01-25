@@ -355,3 +355,5 @@
 
   reset도... 머지커밋을 되돌리면?
   ```
+
+  * [stash 이후 원격에서 pull 받을때 테스트](stash-pull-test.md)
