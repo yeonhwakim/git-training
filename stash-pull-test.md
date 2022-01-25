@@ -9,3 +9,6 @@
 7. branch1 에서 stash
 8. branch1 에서 원격에서 pull 받아옴
 9. stash list가 사라진 상태
+
+
+==> untracked 파일 문제 였음
