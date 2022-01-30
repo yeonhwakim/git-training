@@ -362,3 +362,6 @@
 
 
   #####  cherry-pick
+
+  #### stash
+  * [stash 이후 원격에서 pull 받을때 테스트](stash-pull-test.md)
